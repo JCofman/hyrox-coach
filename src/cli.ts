@@ -461,11 +461,15 @@ async function runSync(args: SyncArgs): Promise<void> {
   if (wantsStrava) {
     await syncStrava(args);
   } else if (hasInbox) {
-    log.info("Strava is not connected (optional). Connect it with: npx hyrox-coach auth");
+    log.info(
+      "Strava is not connected (optional, needs a paid Strava subscription). Connect it with: npx hyrox-coach auth"
+    );
   } else {
     log.warn("Nothing to sync from yet. Set up one of these:");
     log.info("iPhone shortcut: see docs/iphone-shortcut.md (free, data stays in your iCloud)");
-    log.info("Strava: npx hyrox-coach auth --client-id=ID --client-secret=SECRET");
+    log.info(
+      "Strava (paid subscription): npx hyrox-coach auth --client-id=ID --client-secret=SECRET"
+    );
     log.info("Or import an export by hand: npx hyrox-coach import <path>");
     return;
   }

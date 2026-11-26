@@ -32,7 +32,7 @@ order. Text in `{braces}` is a variable you pick from the bar above the keyboard
    - Type: **Workouts**
    - Add Filter: Start Date **is in the last** `30` **days**
    - **Check:** if "Workouts" is not in the Type list on your iOS version, skip steps 3-7.
-     Recovery metrics will still sync; get workouts through Strava instead (see README).
+     Recovery metrics will still sync; import workouts from a full Health export (`export.zip`) every few weeks instead.
 4. **Repeat with Each** (input: Health Samples)
 5. Inside the repeat, **Text**:
 

@@ -92,9 +92,10 @@ metric; type=Resting Heart Rate; date=2026-11-10T00:00:00+01:00; value=48
 
 Only `start` is required on a workout; dates, numbers and units are parsed leniently. If the
 athlete's iOS does not offer "Workouts" in Find Health Samples, sync metrics this way and
-workouts through Strava.
+import workouts from a full Health export (`export.zip`) every few weeks.
 
-**Strava** (free account is enough). The Strava iPhone app can import Apple Watch workouts
+**Strava** (needs a paid Strava subscription for API access since June 2026; only suggest it
+to athletes who already pay for Strava). The Strava iPhone app can import Apple Watch workouts
 automatically; activities set to "Only You" are still synced. No recovery metrics.
 
 ## Strava

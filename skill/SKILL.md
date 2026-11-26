@@ -43,7 +43,7 @@ questions:
       - label: "Google (Fit, Fitbit, Pixel Watch)"
         description: "Google Takeout export, or a Health Connect export from Android"
       - label: "Strava"
-        description: "Sync through the Strava API with your own API app"
+        description: "Sync through the Strava API (needs a paid Strava subscription)"
 ```
 
 ("Other" covers Polar, Coros, Suunto, Wahoo, Whoop: any `.fit`, `.tcx` or `.gpx` export works.
@@ -68,7 +68,7 @@ npx hyrox-coach status
 If the athlete asks for automatic updates, read "Automatic sync" in
 `reference/data-sources.md`. Two routes, both picked up by `npx hyrox-coach sync`: a free
 iPhone shortcut that writes Apple Health data to iCloud Drive (private, also carries resting
-HR, HRV, VO2max, weight), and Strava (workouts only).
+HR, HRV, VO2max, weight), and Strava (workouts only, needs a paid Strava subscription).
 
 ### Strava
 

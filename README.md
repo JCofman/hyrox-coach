@@ -106,8 +106,9 @@ start of each session:
 
 - **iPhone shortcut** (free, private): a shortcut writes your recent Apple Health workouts and
   recovery metrics to iCloud Drive. Follow [docs/iphone-shortcut.md](docs/iphone-shortcut.md).
-- **Strava** (optional): a free account is enough. Set new activities to "Only You" under
-  Settings → Privacy Controls if you want them private; the sync still reads them.
+- **Strava** (optional): since June 2026 the Strava API needs a paid Strava subscription. If
+  you already have one, set new activities to "Only You" under Settings → Privacy Controls if
+  you want them private; the sync still reads them.
 
 Both can be on at once. A session that arrives through both is stored once.
 
