@@ -1,0 +1,2303 @@
+{
+  "version": "1.0",
+  "meta": {
+    "id": "sample-hyrox-open-men-12wk",
+    "athlete": "Sample Athlete",
+    "event": "HYROX Hamburg",
+    "eventDate": "2027-02-06",
+    "division": "open_men",
+    "goalTime": "1:25:00",
+    "planStartDate": "2026-11-16",
+    "planEndDate": "2027-02-07",
+    "createdAt": "2026-11-11T00:00:00Z",
+    "updatedAt": "2026-11-11T00:00:00Z",
+    "totalWeeks": 12,
+    "generatedBy": "Hyrox Coach"
+  },
+  "preferences": {
+    "run": "kilometers",
+    "bike": "kilometers",
+    "weight": "kg",
+    "firstDayOfWeek": "monday"
+  },
+  "assessment": {
+    "foundation": {
+      "raceHistory": [
+        "HYROX Berlin 2026 Open 1:34:10",
+        "10k 49:30 (2026)"
+      ],
+      "peakTrainingLoad": 7,
+      "foundationLevel": "intermediate",
+      "yearsInSport": 3
+    },
+    "currentForm": {
+      "weeklyVolume": {
+        "total": 5,
+        "run": 2.3,
+        "strength": 2.2,
+        "erg": 0.5
+      },
+      "weeklyRunKm": 22,
+      "longestSessions": {
+        "run": 10
+      },
+      "consistency": 4
+    },
+    "strengths": [
+      {
+        "area": "sled_push",
+        "evidence": "3:05 split in Berlin; squats 1.5 x body weight"
+      }
+    ],
+    "limiters": [
+      {
+        "area": "run",
+        "evidence": "Runs 5-8 were 35 s/km slower than runs 1-2; only 22 km/week"
+      },
+      {
+        "area": "wall_balls",
+        "evidence": "8:10 split; largest unbroken set 15"
+      }
+    ],
+    "dataSources": [
+      "apple_health",
+      "garmin"
+    ],
+    "constraints": [
+      "60 min on weekdays",
+      "Gym with sled track and both ergs on Saturdays"
+    ]
+  },
+  "zones": {
+    "maxHR": 188,
+    "restingHR": 52,
+    "weight": 80,
+    "run": {
+      "hr": {
+        "lthr": 168,
+        "zones": [
+          {
+            "zone": 1,
+            "name": "Recovery",
+            "percentLow": 0,
+            "percentHigh": 81,
+            "hrLow": 0,
+            "hrHigh": 136
+          },
+          {
+            "zone": 2,
+            "name": "Aerobic",
+            "percentLow": 81,
+            "percentHigh": 89,
+            "hrLow": 136,
+            "hrHigh": 150
+          },
+          {
+            "zone": 3,
+            "name": "Tempo",
+            "percentLow": 89,
+            "percentHigh": 94,
+            "hrLow": 150,
+            "hrHigh": 158
+          },
+          {
+            "zone": 4,
+            "name": "Threshold",
+            "percentLow": 94,
+            "percentHigh": 100,
+            "hrLow": 158,
+            "hrHigh": 168
+          },
+          {
+            "zone": 5,
+            "name": "VO2max",
+            "percentLow": 100,
+            "percentHigh": 106,
+            "hrLow": 168,
+            "hrHigh": 178
+          }
+        ]
+      },
+      "pace": {
+        "thresholdPace": "5:00/km",
+        "thresholdPaceSeconds": 300,
+        "zones": [
+          {
+            "zone": "E",
+            "name": "Easy",
+            "pace": "5:55/km",
+            "paceSeconds": 355
+          },
+          {
+            "zone": "M",
+            "name": "Steady",
+            "pace": "5:20/km",
+            "paceSeconds": 320
+          },
+          {
+            "zone": "T",
+            "name": "Threshold",
+            "pace": "5:00/km",
+            "paceSeconds": 300
+          },
+          {
+            "zone": "I",
+            "name": "Interval",
+            "pace": "4:30/km",
+            "paceSeconds": 270
+          },
+          {
+            "zone": "R",
+            "name": "Repetition",
+            "pace": "4:10/km",
+            "paceSeconds": 250
+          }
+        ]
+      }
+    },
+    "row": {
+      "thresholdSplit": "2:00/500m",
+      "thresholdSplitSeconds": 120,
+      "zones": [
+        {
+          "zone": 1,
+          "name": "Recovery",
+          "paceOffset": 25,
+          "pace": "2:25/500m"
+        },
+        {
+          "zone": 2,
+          "name": "Aerobic",
+          "paceOffset": 15,
+          "pace": "2:15/500m"
+        },
+        {
+          "zone": 3,
+          "name": "Tempo",
+          "paceOffset": 7,
+          "pace": "2:07/500m"
+        },
+        {
+          "zone": 4,
+          "name": "Threshold",
+          "paceOffset": 0,
+          "pace": "2:00/500m"
+        },
+        {
+          "zone": 5,
+          "name": "VO2max",
+          "paceOffset": -8,
+          "pace": "1:52/500m"
+        }
+      ]
+    }
+  },
+  "phases": [
+    {
+      "name": "Base",
+      "startWeek": 1,
+      "endWeek": 4,
+      "focus": "Aerobic base, general strength, station technique",
+      "weeklyHoursRange": {
+        "low": 3,
+        "high": 5
+      },
+      "keyWorkouts": [
+        "Long run",
+        "Cruise intervals",
+        "Max strength"
+      ],
+      "physiologicalGoals": [
+        "Raise aerobic capacity",
+        "Build general strength",
+        "Learn movement standards"
+      ]
+    },
+    {
+      "name": "Build",
+      "startWeek": 5,
+      "endWeek": 8,
+      "focus": "Threshold running, strength endurance, race-weight stations",
+      "weeklyHoursRange": {
+        "low": 3,
+        "high": 6
+      },
+      "keyWorkouts": [
+        "1 km threshold repeats",
+        "Compromised running",
+        "Half simulation"
+      ],
+      "physiologicalGoals": [
+        "Lift threshold pace",
+        "Strength endurance at race weight",
+        "Run well on loaded legs"
+      ]
+    },
+    {
+      "name": "Specific",
+      "startWeek": 9,
+      "endWeek": 11,
+      "focus": "Race pace, transitions, full rehearsal",
+      "weeklyHoursRange": {
+        "low": 4,
+        "high": 6
+      },
+      "keyWorkouts": [
+        "Race-pace kilometers",
+        "Full simulation",
+        "Roxzone repeats"
+      ],
+      "physiologicalGoals": [
+        "Race-pace economy",
+        "Pacing and fueling routine"
+      ]
+    },
+    {
+      "name": "Taper",
+      "startWeek": 12,
+      "endWeek": 12,
+      "focus": "Freshness",
+      "weeklyHoursRange": {
+        "low": 3,
+        "high": 4
+      },
+      "keyWorkouts": [
+        "Race-pace openers",
+        "Race"
+      ],
+      "physiologicalGoals": [
+        "Shed fatigue, keep sharpness"
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "weekNumber": 1,
+      "startDate": "2026-11-16",
+      "endDate": "2026-11-22",
+      "phase": "Base",
+      "focus": "Establish routine, baseline 5k",
+      "targetHours": 4.4,
+      "isRecoveryWeek": false,
+      "days": [
+        {
+          "date": "2026-11-16",
+          "dayOfWeek": "Monday",
+          "workouts": [
+            {
+              "id": "w1-mon-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Full recovery. Walk, stretch, sleep.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-11-17",
+          "dayOfWeek": "Tuesday",
+          "workouts": [
+            {
+              "id": "w1-tue-run",
+              "sport": "run",
+              "type": "test",
+              "name": "5 km Time Trial",
+              "description": "Baseline for run zones. Even pacing; the last kilometer should be the fastest.",
+              "durationMinutes": 51,
+              "humanReadable": "Warm-up: 10 min easy jog, drills, 4 x 20 s strides\nMain (26 min): 5 km all-out, evenly paced. Note time and average HR of the final 10 min\nCool-down: 5 min easy jog, 5 min calves, hips, lats",
+              "distanceMeters": 8000,
+              "primaryZone": "Zone 4-5",
+              "rpe": 9,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-11-18",
+          "dayOfWeek": "Wednesday",
+          "workouts": [
+            {
+              "id": "w1-wed-strength",
+              "sport": "strength",
+              "type": "max_strength",
+              "name": "Strength A: Squat + Push",
+              "description": "General strength makes race weights feel light. Leave 2 reps in reserve on every set.",
+              "durationMinutes": 60,
+              "humanReadable": "Warm-up: 5 min row or ski easy, hip and shoulder mobility, 2 ramp sets of the first lift\nMain (42 min): 3 x 5 back squat @ RPE 7-8, 2-3 min rest\n  3 x 8/side Bulgarian split squat\n  4 x 6 overhead press\n  3 x 10 push-ups or dips\n  3 x 45 s plank\nCool-down: easy bike or walk, quad and hip-flexor stretch",
+              "rpe": 7,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-11-19",
+          "dayOfWeek": "Thursday",
+          "workouts": [
+            {
+              "id": "w1-thu-run",
+              "sport": "run",
+              "type": "endurance",
+              "name": "Easy Run + Strides",
+              "description": "Aerobic volume at conversational effort. If you cannot talk in full sentences, slow down.",
+              "durationMinutes": 40,
+              "humanReadable": "Warm-up: walk into a slow jog\nMain (30 min): continuous run @ 5:50-6:05/km, Zone 2, then 6 x 20 s relaxed strides with 60 s walk\nCool-down: walk + calf stretch",
+              "distanceMeters": 7000,
+              "primaryZone": "Zone 2",
+              "rpe": 4,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-11-20",
+          "dayOfWeek": "Friday",
+          "workouts": [
+            {
+              "id": "w1-fri-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Rest or 20 min mobility.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-11-21",
+          "dayOfWeek": "Saturday",
+          "workouts": [
+            {
+              "id": "w1-sat-stations",
+              "sport": "stations",
+              "type": "technique",
+              "name": "Station Technique Circuit",
+              "description": "Learn every station at light load with full rest. Movement standards before intensity.",
+              "durationMinutes": 60,
+              "humanReadable": "Warm-up: easy jog, mobility, 10 air squats, 5 burpees\nMain (40 min): 3 rounds, 2 min rest between rounds, all at 60% race weight\n  250 m SkiErg | 12.5 m sled push @ 90 kg | 12.5 m sled pull @ 60 kg\n  10 m burpee broad jumps | 250 m row | 50 m farmers carry @ 2 x 16 kg\n  12.5 m sandbag lunges @ 10 kg | 15 wall balls @ 6 kg\nCool-down: walk + stretch",
+              "rpe": 5,
+              "stations": [
+                "skierg",
+                "sled_push",
+                "sled_pull",
+                "burpee_broad_jump",
+                "row",
+                "farmers_carry",
+                "sandbag_lunges",
+                "wall_balls"
+              ],
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-11-22",
+          "dayOfWeek": "Sunday",
+          "workouts": [
+            {
+              "id": "w1-sun-run",
+              "sport": "run",
+              "type": "long",
+              "name": "Long Run",
+              "description": "Durability for 8 km of racing plus stations. Keep it easy; the distance is the stimulus.",
+              "durationMinutes": 54,
+              "humanReadable": "Main (54 min): 9 km @ 5:50-6:05/km, Zone 2. Sip water; take a gel after 60 min",
+              "distanceMeters": 9000,
+              "primaryZone": "Zone 2",
+              "rpe": 4,
+              "completed": false
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "totalHours": 4.4,
+        "bySport": {
+          "run": {
+            "sessions": 3,
+            "hours": 2.4,
+            "km": 24
+          },
+          "strength": {
+            "sessions": 1,
+            "hours": 1
+          },
+          "stations": {
+            "sessions": 1,
+            "hours": 1
+          }
+        }
+      }
+    },
+    {
+      "weekNumber": 2,
+      "startDate": "2026-11-23",
+      "endDate": "2026-11-29",
+      "phase": "Base",
+      "focus": "Aerobic volume, station baselines",
+      "targetHours": 4.4,
+      "isRecoveryWeek": false,
+      "days": [
+        {
+          "date": "2026-11-23",
+          "dayOfWeek": "Monday",
+          "workouts": [
+            {
+              "id": "w2-mon-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Full recovery. Walk, stretch, sleep.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-11-24",
+          "dayOfWeek": "Tuesday",
+          "workouts": [
+            {
+              "id": "w2-tue-run",
+              "sport": "run",
+              "type": "tempo",
+              "name": "Steady Intervals",
+              "description": "Introduce sustained running above easy pace without much fatigue.",
+              "durationMinutes": 46,
+              "humanReadable": "Warm-up: 8 min easy jog, leg swings, lunges, 3 x 20 s pick-ups\nMain (24 min): 6 x 3 min @ 5:20/km (Zone 3) with 1 min easy jog\nCool-down: 5 min easy jog, 5 min calves, hips, lats",
+              "distanceMeters": 7500,
+              "primaryZone": "Zone 3",
+              "rpe": 6,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-11-25",
+          "dayOfWeek": "Wednesday",
+          "workouts": [
+            {
+              "id": "w2-wed-strength",
+              "sport": "strength",
+              "type": "max_strength",
+              "name": "Strength B: Hinge + Pull",
+              "description": "Posterior chain and grip for sled pull, row and farmers carry.",
+              "durationMinutes": 60,
+              "humanReadable": "Warm-up: 5 min row or ski easy, hip and shoulder mobility, 2 ramp sets of the first lift\nMain (42 min): 3 x 5 trap-bar deadlift @ RPE 7-8, 2-3 min rest\n  3 x 8 hip thrust\n  4 x 6-8 pull-ups or lat pulldown\n  4 x 8 seated row\n  4 x 40 m heavy farmers carry (2 x 32 kg)\nCool-down: easy walk, hamstring and lat stretch",
+              "rpe": 7,
+              "stations": [
+                "farmers_carry"
+              ],
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-11-26",
+          "dayOfWeek": "Thursday",
+          "workouts": [
+            {
+              "id": "w2-thu-run",
+              "sport": "run",
+              "type": "endurance",
+              "name": "Easy Run + Strides",
+              "description": "Aerobic volume at conversational effort. If you cannot talk in full sentences, slow down.",
+              "durationMinutes": 40,
+              "humanReadable": "Warm-up: walk into a slow jog\nMain (30 min): continuous run @ 5:50-6:05/km, Zone 2, then 6 x 20 s relaxed strides with 60 s walk\nCool-down: walk + calf stretch",
+              "distanceMeters": 7000,
+              "primaryZone": "Zone 2",
+              "rpe": 4,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-11-27",
+          "dayOfWeek": "Friday",
+          "workouts": [
+            {
+              "id": "w2-fri-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Rest or 20 min mobility.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-11-28",
+          "dayOfWeek": "Saturday",
+          "workouts": [
+            {
+              "id": "w2-sat-stations",
+              "sport": "stations",
+              "type": "test",
+              "name": "Station Baselines",
+              "description": "Benchmarks for erg zones and the wall-ball plan. Full recovery between tests.",
+              "durationMinutes": 60,
+              "humanReadable": "Warm-up: easy jog, mobility, 2 min easy on each erg\nMain (40 min): 1000 m SkiErg for time, 8 min easy walk\n  1000 m row for time, 8 min easy walk\n  Wall balls @ 6 kg: max unbroken set, rest 3 min, then 50 for time\n  Sled check: 2 x 12.5 m push @ 152 kg, 2 x 12.5 m pull @ 103 kg\nCool-down: walk + stretch",
+              "rpe": 8,
+              "stations": [
+                "skierg",
+                "row",
+                "wall_balls",
+                "sled_push",
+                "sled_pull"
+              ],
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-11-29",
+          "dayOfWeek": "Sunday",
+          "workouts": [
+            {
+              "id": "w2-sun-run",
+              "sport": "run",
+              "type": "long",
+              "name": "Long Run",
+              "description": "Durability for 8 km of racing plus stations. Keep it easy; the distance is the stimulus.",
+              "durationMinutes": 60,
+              "humanReadable": "Main (60 min): 10 km @ 5:50-6:05/km, Zone 2. Sip water; take a gel after 60 min",
+              "distanceMeters": 10000,
+              "primaryZone": "Zone 2",
+              "rpe": 4,
+              "completed": false
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "totalHours": 4.4,
+        "bySport": {
+          "run": {
+            "sessions": 3,
+            "hours": 2.4,
+            "km": 24.5
+          },
+          "strength": {
+            "sessions": 1,
+            "hours": 1
+          },
+          "stations": {
+            "sessions": 1,
+            "hours": 1
+          }
+        }
+      }
+    },
+    {
+      "weekNumber": 3,
+      "startDate": "2026-11-30",
+      "endDate": "2026-12-06",
+      "phase": "Base",
+      "focus": "First threshold work, intro bricks",
+      "targetHours": 4.7,
+      "isRecoveryWeek": false,
+      "days": [
+        {
+          "date": "2026-11-30",
+          "dayOfWeek": "Monday",
+          "workouts": [
+            {
+              "id": "w3-mon-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Full recovery. Walk, stretch, sleep.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-12-01",
+          "dayOfWeek": "Tuesday",
+          "workouts": [
+            {
+              "id": "w3-tue-run",
+              "sport": "run",
+              "type": "threshold",
+              "name": "Cruise Intervals",
+              "description": "Threshold pace is the engine for Hyrox running. Controlled, not all-out.",
+              "durationMinutes": 48,
+              "humanReadable": "Warm-up: 8 min easy jog, leg swings, lunges, 3 x 20 s pick-ups\nMain (26 min): 4 x 5 min @ 5:00/km (Zone 4) with 90 s easy jog\nCool-down: 5 min easy jog, 5 min calves, hips, lats",
+              "distanceMeters": 8000,
+              "primaryZone": "Zone 4",
+              "rpe": 7,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-12-02",
+          "dayOfWeek": "Wednesday",
+          "workouts": [
+            {
+              "id": "w3-wed-strength",
+              "sport": "strength",
+              "type": "max_strength",
+              "name": "Strength A: Squat + Push",
+              "description": "General strength makes race weights feel light. Leave 2 reps in reserve on every set.",
+              "durationMinutes": 60,
+              "humanReadable": "Warm-up: 5 min row or ski easy, hip and shoulder mobility, 2 ramp sets of the first lift\nMain (42 min): 4 x 5 back squat @ RPE 7-8, 2-3 min rest\n  3 x 8/side Bulgarian split squat\n  4 x 6 overhead press\n  3 x 10 push-ups or dips\n  3 x 45 s plank\nCool-down: easy bike or walk, quad and hip-flexor stretch",
+              "rpe": 7,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-12-03",
+          "dayOfWeek": "Thursday",
+          "workouts": [
+            {
+              "id": "w3-thu-run",
+              "sport": "run",
+              "type": "endurance",
+              "name": "Easy Run + Strides",
+              "description": "Aerobic volume at conversational effort. If you cannot talk in full sentences, slow down.",
+              "durationMinutes": 45,
+              "humanReadable": "Warm-up: walk into a slow jog\nMain (35 min): continuous run @ 5:50-6:05/km, Zone 2, then 6 x 20 s relaxed strides with 60 s walk\nCool-down: walk + calf stretch",
+              "distanceMeters": 7500,
+              "primaryZone": "Zone 2",
+              "rpe": 4,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-12-04",
+          "dayOfWeek": "Friday",
+          "workouts": [
+            {
+              "id": "w3-fri-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Rest or 20 min mobility.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-12-05",
+          "dayOfWeek": "Saturday",
+          "workouts": [
+            {
+              "id": "w3-sat-hyrox",
+              "sport": "hyrox",
+              "type": "compromised",
+              "name": "Intro Bricks: Ski + Sled",
+              "description": "First taste of running straight out of a station. Smooth transitions, controlled effort.",
+              "durationMinutes": 60,
+              "humanReadable": "Warm-up: easy jog, mobility, 3 x 20 s pick-ups\nMain (38 min): 4 rounds, 2 min rest\n  600 m run @ 5:20/km\n  Odd rounds: 500 m SkiErg @ 2:10/500m\n  Even rounds: sled push 25 m @ 110 kg\nCool-down: walk + stretch",
+              "distanceMeters": 3400,
+              "primaryZone": "Zone 3",
+              "rpe": 6,
+              "stations": [
+                "skierg",
+                "sled_push"
+              ],
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-12-06",
+          "dayOfWeek": "Sunday",
+          "workouts": [
+            {
+              "id": "w3-sun-run",
+              "sport": "run",
+              "type": "long",
+              "name": "Long Run",
+              "description": "Durability for 8 km of racing plus stations. Keep it easy; the distance is the stimulus.",
+              "durationMinutes": 71,
+              "humanReadable": "Main (71 min): 12 km @ 5:50-6:05/km, Zone 2. Sip water; take a gel after 60 min",
+              "distanceMeters": 12000,
+              "primaryZone": "Zone 2",
+              "rpe": 4,
+              "completed": false
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "totalHours": 4.7,
+        "bySport": {
+          "run": {
+            "sessions": 3,
+            "hours": 2.7,
+            "km": 27.5
+          },
+          "strength": {
+            "sessions": 1,
+            "hours": 1
+          },
+          "hyrox": {
+            "sessions": 1,
+            "hours": 1,
+            "km": 3.4
+          }
+        }
+      }
+    },
+    {
+      "weekNumber": 4,
+      "startDate": "2026-12-07",
+      "endDate": "2026-12-13",
+      "phase": "Base",
+      "focus": "Recovery week: absorb the first block",
+      "targetHours": 3.8,
+      "isRecoveryWeek": true,
+      "days": [
+        {
+          "date": "2026-12-07",
+          "dayOfWeek": "Monday",
+          "workouts": [
+            {
+              "id": "w4-mon-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Full recovery. Walk, stretch, sleep.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-12-08",
+          "dayOfWeek": "Tuesday",
+          "workouts": [
+            {
+              "id": "w4-tue-run",
+              "sport": "run",
+              "type": "intervals",
+              "name": "Fartlek",
+              "description": "Light, playful speed to stay sharp in a recovery week.",
+              "durationMinutes": 38,
+              "humanReadable": "Warm-up: 8 min easy jog, leg swings, lunges, 3 x 20 s pick-ups\nMain (16 min): 8 x (1 min quick @ 4:40/km / 1 min easy jog)\nCool-down: 5 min easy jog, 5 min calves, hips, lats",
+              "distanceMeters": 6000,
+              "primaryZone": "Zone 3",
+              "rpe": 6,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-12-09",
+          "dayOfWeek": "Wednesday",
+          "workouts": [
+            {
+              "id": "w4-wed-strength",
+              "sport": "strength",
+              "type": "max_strength",
+              "name": "Strength B: Hinge + Pull",
+              "description": "Posterior chain and grip for sled pull, row and farmers carry.",
+              "durationMinutes": 60,
+              "humanReadable": "Warm-up: 5 min row or ski easy, hip and shoulder mobility, 2 ramp sets of the first lift\nMain (42 min): 2 x 5 trap-bar deadlift @ RPE 7-8, 2-3 min rest\n  3 x 8 hip thrust\n  4 x 6-8 pull-ups or lat pulldown\n  4 x 8 seated row\n  4 x 40 m heavy farmers carry (2 x 32 kg)\nCool-down: easy walk, hamstring and lat stretch",
+              "rpe": 7,
+              "stations": [
+                "farmers_carry"
+              ],
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-12-10",
+          "dayOfWeek": "Thursday",
+          "workouts": [
+            {
+              "id": "w4-thu-run",
+              "sport": "run",
+              "type": "endurance",
+              "name": "Easy Run",
+              "description": "Aerobic volume at conversational effort. If you cannot talk in full sentences, slow down.",
+              "durationMinutes": 35,
+              "humanReadable": "Warm-up: walk into a slow jog\nMain (25 min): continuous run @ 5:50-6:05/km, Zone 2\nCool-down: walk + calf stretch",
+              "distanceMeters": 6000,
+              "primaryZone": "Zone 2",
+              "rpe": 4,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-12-11",
+          "dayOfWeek": "Friday",
+          "workouts": [
+            {
+              "id": "w4-fri-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Rest or 20 min mobility.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-12-12",
+          "dayOfWeek": "Saturday",
+          "workouts": [
+            {
+              "id": "w4-sat-stations",
+              "sport": "stations",
+              "type": "technique",
+              "name": "Technique Circuit (light)",
+              "description": "Polish technique while fresh: SkiErg hinge, wall-ball rhythm, lunge standards.",
+              "durationMinutes": 45,
+              "humanReadable": "Warm-up: easy jog, mobility\nMain (28 min): 2 rounds, 2 min rest, 60% race weight\n  250 m SkiErg | 12.5 m sled push | 12.5 m sled pull | 10 m burpee broad jumps\n  250 m row | 50 m farmers carry | 12.5 m lunges | 15 wall balls\nCool-down: walk + stretch",
+              "rpe": 4,
+              "stations": [
+                "skierg",
+                "sled_push",
+                "sled_pull",
+                "burpee_broad_jump",
+                "row",
+                "farmers_carry",
+                "sandbag_lunges",
+                "wall_balls"
+              ],
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-12-13",
+          "dayOfWeek": "Sunday",
+          "workouts": [
+            {
+              "id": "w4-sun-run",
+              "sport": "run",
+              "type": "long",
+              "name": "Long Run",
+              "description": "Durability for 8 km of racing plus stations. Keep it easy; the distance is the stimulus.",
+              "durationMinutes": 48,
+              "humanReadable": "Main (48 min): 8 km @ 5:50-6:05/km, Zone 2. Sip water; take a gel after 60 min",
+              "distanceMeters": 8000,
+              "primaryZone": "Zone 2",
+              "rpe": 4,
+              "completed": false
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "totalHours": 3.8,
+        "bySport": {
+          "run": {
+            "sessions": 3,
+            "hours": 2,
+            "km": 20
+          },
+          "strength": {
+            "sessions": 1,
+            "hours": 1
+          },
+          "stations": {
+            "sessions": 1,
+            "hours": 0.8
+          }
+        }
+      }
+    },
+    {
+      "weekNumber": 5,
+      "startDate": "2026-12-14",
+      "endDate": "2026-12-20",
+      "phase": "Build",
+      "focus": "Race-weight stations, kilometer repeats",
+      "targetHours": 5,
+      "isRecoveryWeek": false,
+      "days": [
+        {
+          "date": "2026-12-14",
+          "dayOfWeek": "Monday",
+          "workouts": [
+            {
+              "id": "w5-mon-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Full recovery. Walk, stretch, sleep.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-12-15",
+          "dayOfWeek": "Tuesday",
+          "workouts": [
+            {
+              "id": "w5-tue-run",
+              "sport": "run",
+              "type": "threshold",
+              "name": "5 x 1 km Threshold",
+              "description": "The classic Hyrox run session: kilometers at threshold with short recoveries.",
+              "durationMinutes": 53,
+              "humanReadable": "Warm-up: 8 min easy jog, leg swings, lunges, 3 x 20 s pick-ups\nMain (31 min): 5 x 1 km @ 5:00/km (Zone 4) with 90 s easy jog\nCool-down: 5 min easy jog, 5 min calves, hips, lats",
+              "distanceMeters": 9000,
+              "primaryZone": "Zone 4",
+              "rpe": 7,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-12-16",
+          "dayOfWeek": "Wednesday",
+          "workouts": [
+            {
+              "id": "w5-wed-strength",
+              "sport": "strength",
+              "type": "strength_endurance",
+              "name": "Strength Endurance",
+              "description": "High-rep work at race weight: the quality that keeps station times stable late in the race.",
+              "durationMinutes": 60,
+              "humanReadable": "Warm-up: 5 min row or ski easy, hip and shoulder mobility, 2 ramp sets of the first lift\nMain (42 min): 3 x 15 goblet squat into 3 x 12 thrusters (2 x 12.5 kg)\n  4 x 12.5 m sled push @ 152 kg, 60 s rest\n  4 x 12.5 m sled pull @ 103 kg, 60 s rest\n  3 x 25 m sandbag lunges @ 20 kg\n  3 x 15 seated row + 3 x 15 triceps push-down\nCool-down: easy bike, hips and thoracic mobility",
+              "rpe": 8,
+              "stations": [
+                "sled_push",
+                "sled_pull",
+                "sandbag_lunges"
+              ],
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-12-17",
+          "dayOfWeek": "Thursday",
+          "workouts": [
+            {
+              "id": "w5-thu-run",
+              "sport": "run",
+              "type": "endurance",
+              "name": "Easy Run + Strides",
+              "description": "Aerobic volume at conversational effort. If you cannot talk in full sentences, slow down.",
+              "durationMinutes": 45,
+              "humanReadable": "Warm-up: walk into a slow jog\nMain (35 min): continuous run @ 5:50-6:05/km, Zone 2, then 6 x 20 s relaxed strides with 60 s walk\nCool-down: walk + calf stretch",
+              "distanceMeters": 7500,
+              "primaryZone": "Zone 2",
+              "rpe": 4,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-12-18",
+          "dayOfWeek": "Friday",
+          "workouts": [
+            {
+              "id": "w5-fri-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Rest or 20 min mobility.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-12-19",
+          "dayOfWeek": "Saturday",
+          "workouts": [
+            {
+              "id": "w5-sat-hyrox",
+              "sport": "hyrox",
+              "type": "compromised",
+              "name": "Leg-Killer Runs",
+              "description": "Run at race pace on legs loaded by sleds, lunges and wall balls. This is the race-deciding skill.",
+              "durationMinutes": 65,
+              "humanReadable": "Warm-up: easy jog, mobility, 2 x 12.5 m light sled, 3 x 20 s pick-ups\nMain (43 min): 4 rounds, 90 s rest\n  1 km run @ 5:15/km\n  Round 1: sled push 25 m @ 152 kg | Round 2: 25 m sandbag lunges @ 20 kg\n  Round 3: 25 wall balls @ 6 kg | Round 4: sled pull 25 m @ 103 kg\nCool-down: walk + stretch",
+              "distanceMeters": 5000,
+              "primaryZone": "Zone 3-4",
+              "rpe": 8,
+              "stations": [
+                "sled_push",
+                "sandbag_lunges",
+                "wall_balls",
+                "sled_pull"
+              ],
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-12-20",
+          "dayOfWeek": "Sunday",
+          "workouts": [
+            {
+              "id": "w5-sun-run",
+              "sport": "run",
+              "type": "long",
+              "name": "Long Run",
+              "description": "Durability for 8 km of racing plus stations. Keep it easy; the distance is the stimulus.",
+              "durationMinutes": 77,
+              "humanReadable": "Main (77 min): 13 km @ 5:50-6:05/km, Zone 2. Sip water; take a gel after 60 min",
+              "distanceMeters": 13000,
+              "primaryZone": "Zone 2",
+              "rpe": 4,
+              "completed": false
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "totalHours": 5,
+        "bySport": {
+          "run": {
+            "sessions": 3,
+            "hours": 2.9,
+            "km": 29.5
+          },
+          "strength": {
+            "sessions": 1,
+            "hours": 1
+          },
+          "hyrox": {
+            "sessions": 1,
+            "hours": 1.1,
+            "km": 5
+          }
+        }
+      }
+    },
+    {
+      "weekNumber": 6,
+      "startDate": "2026-12-21",
+      "endDate": "2026-12-27",
+      "phase": "Build",
+      "focus": "Threshold volume, upper/lower brick",
+      "targetHours": 5.3,
+      "isRecoveryWeek": false,
+      "days": [
+        {
+          "date": "2026-12-21",
+          "dayOfWeek": "Monday",
+          "workouts": [
+            {
+              "id": "w6-mon-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Full recovery. Walk, stretch, sleep.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-12-22",
+          "dayOfWeek": "Tuesday",
+          "workouts": [
+            {
+              "id": "w6-tue-run",
+              "sport": "run",
+              "type": "threshold",
+              "name": "6 x 1 km Threshold",
+              "description": "One more rep, slightly less rest than last week.",
+              "durationMinutes": 58,
+              "humanReadable": "Warm-up: 8 min easy jog, leg swings, lunges, 3 x 20 s pick-ups\nMain (36 min): 6 x 1 km @ 4:55-5:00/km (Zone 4) with 75 s easy jog\nCool-down: 5 min easy jog, 5 min calves, hips, lats",
+              "distanceMeters": 10000,
+              "primaryZone": "Zone 4",
+              "rpe": 7,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-12-23",
+          "dayOfWeek": "Wednesday",
+          "workouts": [
+            {
+              "id": "w6-wed-strength",
+              "sport": "strength",
+              "type": "strength_endurance",
+              "name": "Strength Endurance",
+              "description": "High-rep work at race weight: the quality that keeps station times stable late in the race.",
+              "durationMinutes": 60,
+              "humanReadable": "Warm-up: 5 min row or ski easy, hip and shoulder mobility, 2 ramp sets of the first lift\nMain (42 min): 3 x 15 goblet squat into 3 x 12 thrusters (2 x 12.5 kg)\n  6 x 12.5 m sled push @ 152 kg, 60 s rest\n  4 x 12.5 m sled pull @ 103 kg, 60 s rest\n  3 x 25 m sandbag lunges @ 20 kg\n  3 x 15 seated row + 3 x 15 triceps push-down\nCool-down: easy bike, hips and thoracic mobility",
+              "rpe": 8,
+              "stations": [
+                "sled_push",
+                "sled_pull",
+                "sandbag_lunges"
+              ],
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-12-24",
+          "dayOfWeek": "Thursday",
+          "workouts": [
+            {
+              "id": "w6-thu-run",
+              "sport": "run",
+              "type": "endurance",
+              "name": "Easy Run + Strides",
+              "description": "Aerobic volume at conversational effort. If you cannot talk in full sentences, slow down.",
+              "durationMinutes": 45,
+              "humanReadable": "Warm-up: walk into a slow jog\nMain (35 min): continuous run @ 5:50-6:05/km, Zone 2, then 6 x 20 s relaxed strides with 60 s walk\nCool-down: walk + calf stretch",
+              "distanceMeters": 7500,
+              "primaryZone": "Zone 2",
+              "rpe": 4,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-12-25",
+          "dayOfWeek": "Friday",
+          "workouts": [
+            {
+              "id": "w6-fri-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Rest or 20 min mobility.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-12-26",
+          "dayOfWeek": "Saturday",
+          "workouts": [
+            {
+              "id": "w6-sat-hyrox",
+              "sport": "hyrox",
+              "type": "compromised",
+              "name": "Upper/Lower Split Brick",
+              "description": "Alternate an arm-dominant and a leg-dominant station, like the first half of the race.",
+              "durationMinutes": 70,
+              "humanReadable": "Warm-up: easy jog, mobility, 2 min easy SkiErg\nMain (48 min): 3 rounds, 3 min rest\n  1 km run @ 5:15/km\n  500 m SkiErg @ 2:08/500m\n  1 km run @ 5:15/km\n  Sled push 25 m @ 152 kg\nCool-down: walk + stretch",
+              "distanceMeters": 7000,
+              "primaryZone": "Zone 3-4",
+              "rpe": 8,
+              "stations": [
+                "skierg",
+                "sled_push"
+              ],
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-12-27",
+          "dayOfWeek": "Sunday",
+          "workouts": [
+            {
+              "id": "w6-sun-run",
+              "sport": "run",
+              "type": "long",
+              "name": "Long Run",
+              "description": "Durability for 8 km of racing plus stations. Keep it easy; the distance is the stimulus.",
+              "durationMinutes": 83,
+              "humanReadable": "Main (83 min): 14 km @ 5:50-6:05/km, Zone 2, last 15 min steady @ 5:20/km. Sip water; take a gel after 60 min",
+              "distanceMeters": 14000,
+              "primaryZone": "Zone 2",
+              "rpe": 5,
+              "completed": false
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "totalHours": 5.3,
+        "bySport": {
+          "run": {
+            "sessions": 3,
+            "hours": 3.1,
+            "km": 31.5
+          },
+          "strength": {
+            "sessions": 1,
+            "hours": 1
+          },
+          "hyrox": {
+            "sessions": 1,
+            "hours": 1.2,
+            "km": 7
+          }
+        }
+      }
+    },
+    {
+      "weekNumber": 7,
+      "startDate": "2026-12-28",
+      "endDate": "2027-01-03",
+      "phase": "Build",
+      "focus": "Peak build week: VO2 and half simulation",
+      "targetHours": 5.3,
+      "isRecoveryWeek": false,
+      "days": [
+        {
+          "date": "2026-12-28",
+          "dayOfWeek": "Monday",
+          "workouts": [
+            {
+              "id": "w7-mon-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Full recovery. Walk, stretch, sleep.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-12-29",
+          "dayOfWeek": "Tuesday",
+          "workouts": [
+            {
+              "id": "w7-tue-run",
+              "sport": "run",
+              "type": "vo2max",
+              "name": "800 m Repeats",
+              "description": "Raise the ceiling so race pace sits further below it.",
+              "durationMinutes": 48,
+              "humanReadable": "Warm-up: 8 min easy jog, leg swings, lunges, 3 x 20 s pick-ups\nMain (26 min): 5 x 800 m @ 4:30/km (Zone 5) with 2 min easy jog\nCool-down: 5 min easy jog, 5 min calves, hips, lats",
+              "distanceMeters": 8000,
+              "primaryZone": "Zone 5",
+              "rpe": 9,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-12-30",
+          "dayOfWeek": "Wednesday",
+          "workouts": [
+            {
+              "id": "w7-wed-strength",
+              "sport": "strength",
+              "type": "strength_endurance",
+              "name": "Strength Endurance",
+              "description": "High-rep work at race weight: the quality that keeps station times stable late in the race.",
+              "durationMinutes": 60,
+              "humanReadable": "Warm-up: 5 min row or ski easy, hip and shoulder mobility, 2 ramp sets of the first lift\nMain (42 min): 3 x 15 goblet squat into 3 x 12 thrusters (2 x 12.5 kg)\n  6 x 12.5 m sled push @ 152 kg, 60 s rest\n  4 x 12.5 m sled pull @ 103 kg, 60 s rest\n  3 x 25 m sandbag lunges @ 20 kg\n  3 x 15 seated row + 3 x 15 triceps push-down\nCool-down: easy bike, hips and thoracic mobility",
+              "rpe": 8,
+              "stations": [
+                "sled_push",
+                "sled_pull",
+                "sandbag_lunges"
+              ],
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-12-31",
+          "dayOfWeek": "Thursday",
+          "workouts": [
+            {
+              "id": "w7-thu-run",
+              "sport": "run",
+              "type": "endurance",
+              "name": "Easy Run",
+              "description": "Aerobic volume at conversational effort. If you cannot talk in full sentences, slow down.",
+              "durationMinutes": 40,
+              "humanReadable": "Warm-up: walk into a slow jog\nMain (30 min): continuous run @ 5:50-6:05/km, Zone 2\nCool-down: walk + calf stretch",
+              "distanceMeters": 7000,
+              "primaryZone": "Zone 2",
+              "rpe": 4,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2027-01-01",
+          "dayOfWeek": "Friday",
+          "workouts": [
+            {
+              "id": "w7-fri-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Rest or 20 min mobility.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2027-01-02",
+          "dayOfWeek": "Saturday",
+          "workouts": [
+            {
+              "id": "w7-sat-hyrox",
+              "sport": "hyrox",
+              "type": "simulation",
+              "name": "Half Simulation: Stations 1-4",
+              "description": "First half of the race at race effort. Record every split.",
+              "durationMinutes": 75,
+              "humanReadable": "Warm-up: easy jog, mobility, 1 min each erg, 3 x 20 s pick-ups\nMain (50 min): Continuous, race effort (RPE 7-8), jog the transitions\n  1 km @ 5:15 + 1000 m SkiErg @ 2:10/500m\n  1 km @ 5:15 + sled push 50 m @ 152 kg\n  1 km @ 5:20 + sled pull 50 m @ 103 kg\n  1 km @ 5:20 + 80 m burpee broad jumps\n  1 km @ 5:15 to finish\nCool-down: walk + stretch, write down splits",
+              "distanceMeters": 6500,
+              "primaryZone": "Zone 3-4",
+              "rpe": 8,
+              "stations": [
+                "skierg",
+                "sled_push",
+                "sled_pull",
+                "burpee_broad_jump"
+              ],
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2027-01-03",
+          "dayOfWeek": "Sunday",
+          "workouts": [
+            {
+              "id": "w7-sun-run",
+              "sport": "run",
+              "type": "long",
+              "name": "Long Run",
+              "description": "Durability for 8 km of racing plus stations. Keep it easy; the distance is the stimulus.",
+              "durationMinutes": 95,
+              "humanReadable": "Main (95 min): 16 km @ 5:50-6:05/km, Zone 2, last 15 min steady @ 5:20/km. Sip water; take a gel after 60 min",
+              "distanceMeters": 16000,
+              "primaryZone": "Zone 2",
+              "rpe": 5,
+              "completed": false
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "totalHours": 5.3,
+        "bySport": {
+          "run": {
+            "sessions": 3,
+            "hours": 3.1,
+            "km": 31
+          },
+          "strength": {
+            "sessions": 1,
+            "hours": 1
+          },
+          "hyrox": {
+            "sessions": 1,
+            "hours": 1.3,
+            "km": 6.5
+          }
+        }
+      }
+    },
+    {
+      "weekNumber": 8,
+      "startDate": "2027-01-04",
+      "endDate": "2027-01-10",
+      "phase": "Build",
+      "focus": "Recovery week and retests",
+      "targetHours": 3.8,
+      "isRecoveryWeek": true,
+      "days": [
+        {
+          "date": "2027-01-04",
+          "dayOfWeek": "Monday",
+          "workouts": [
+            {
+              "id": "w8-mon-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Full recovery. Walk, stretch, sleep.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2027-01-05",
+          "dayOfWeek": "Tuesday",
+          "workouts": [
+            {
+              "id": "w8-tue-run",
+              "sport": "run",
+              "type": "threshold",
+              "name": "3 x 1 km Threshold",
+              "description": "Short touch of quality; legs should feel fresh by the weekend.",
+              "durationMinutes": 40,
+              "humanReadable": "Warm-up: 8 min easy jog, leg swings, lunges, 3 x 20 s pick-ups\nMain (19 min): 3 x 1 km @ 5:00/km (Zone 4) with 2 min easy jog\nCool-down: easy jog + stretch",
+              "distanceMeters": 6500,
+              "primaryZone": "Zone 4",
+              "rpe": 6,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2027-01-06",
+          "dayOfWeek": "Wednesday",
+          "workouts": [
+            {
+              "id": "w8-wed-strength",
+              "sport": "strength",
+              "type": "max_strength",
+              "name": "Strength Maintenance",
+              "description": "Keep strength without soreness. Move fast, stop well short of failure.",
+              "durationMinutes": 45,
+              "humanReadable": "Warm-up: easy erg, mobility, ramp sets\nMain (31 min): 2 x 6 back squat @ RPE 6\n  2 x 6 trap-bar deadlift @ RPE 6\n  2 x 8 overhead press\n  2 x 8 pull-ups\n  2 x 50 m farmers carry @ 2 x 24 kg\nCool-down: mobility",
+              "rpe": 6,
+              "stations": [
+                "farmers_carry"
+              ],
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2027-01-07",
+          "dayOfWeek": "Thursday",
+          "workouts": [
+            {
+              "id": "w8-thu-run",
+              "sport": "run",
+              "type": "endurance",
+              "name": "Easy Run",
+              "description": "Aerobic volume at conversational effort. If you cannot talk in full sentences, slow down.",
+              "durationMinutes": 35,
+              "humanReadable": "Warm-up: walk into a slow jog\nMain (25 min): continuous run @ 5:50-6:05/km, Zone 2\nCool-down: walk + calf stretch",
+              "distanceMeters": 6000,
+              "primaryZone": "Zone 2",
+              "rpe": 4,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2027-01-08",
+          "dayOfWeek": "Friday",
+          "workouts": [
+            {
+              "id": "w8-fri-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Rest or 20 min mobility.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2027-01-09",
+          "dayOfWeek": "Saturday",
+          "workouts": [
+            {
+              "id": "w8-sat-stations",
+              "sport": "stations",
+              "type": "strength_endurance",
+              "name": "EMOM 32",
+              "description": "Station fitness without running load. Every rep at the same quality.",
+              "durationMinutes": 50,
+              "humanReadable": "Warm-up: easy jog, mobility\nMain (32 min): Every minute for 32 min, rotate through\n  Min 1: 12 cal SkiErg | Min 2: 8 m burpee broad jumps\n  Min 3: 15 wall balls @ 6 kg | Min 4: 40 m farmers carry @ 2 x 24 kg\nCool-down: walk + stretch",
+              "rpe": 7,
+              "stations": [
+                "skierg",
+                "burpee_broad_jump",
+                "wall_balls",
+                "farmers_carry"
+              ],
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2027-01-10",
+          "dayOfWeek": "Sunday",
+          "workouts": [
+            {
+              "id": "w8-sun-run",
+              "sport": "run",
+              "type": "long",
+              "name": "Long Run",
+              "description": "Durability for 8 km of racing plus stations. Keep it easy; the distance is the stimulus.",
+              "durationMinutes": 60,
+              "humanReadable": "Main (60 min): 10 km @ 5:50-6:05/km, Zone 2. Sip water; take a gel after 60 min",
+              "distanceMeters": 10000,
+              "primaryZone": "Zone 2",
+              "rpe": 4,
+              "completed": false
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "totalHours": 3.8,
+        "bySport": {
+          "run": {
+            "sessions": 3,
+            "hours": 2.3,
+            "km": 22.5
+          },
+          "strength": {
+            "sessions": 1,
+            "hours": 0.8
+          },
+          "stations": {
+            "sessions": 1,
+            "hours": 0.8
+          }
+        }
+      }
+    },
+    {
+      "weekNumber": 9,
+      "startDate": "2027-01-11",
+      "endDate": "2027-01-17",
+      "phase": "Specific",
+      "focus": "Race pace, back half of the race",
+      "targetHours": 5.1,
+      "isRecoveryWeek": false,
+      "days": [
+        {
+          "date": "2027-01-11",
+          "dayOfWeek": "Monday",
+          "workouts": [
+            {
+              "id": "w9-mon-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Full recovery. Walk, stretch, sleep.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2027-01-12",
+          "dayOfWeek": "Tuesday",
+          "workouts": [
+            {
+              "id": "w9-tue-run",
+              "sport": "run",
+              "type": "intervals",
+              "name": "6 x 1 km Race Pace",
+              "description": "Lock in Hyrox pace. It should feel almost too easy when fresh; that is the point.",
+              "durationMinutes": 59,
+              "humanReadable": "Warm-up: 8 min easy jog, leg swings, lunges, 3 x 20 s pick-ups\nMain (37 min): 6 x 1 km @ 5:15/km with 60 s walk-jog\nCool-down: 5 min easy jog, 5 min calves, hips, lats",
+              "distanceMeters": 9500,
+              "primaryZone": "Zone 3",
+              "rpe": 6,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2027-01-13",
+          "dayOfWeek": "Wednesday",
+          "workouts": [
+            {
+              "id": "w9-wed-strength",
+              "sport": "strength",
+              "type": "max_strength",
+              "name": "Strength Maintenance",
+              "description": "Keep strength without soreness. Move fast, stop well short of failure.",
+              "durationMinutes": 45,
+              "humanReadable": "Warm-up: easy erg, mobility, ramp sets\nMain (31 min): 2 x 6 back squat @ RPE 6\n  2 x 6 trap-bar deadlift @ RPE 6\n  2 x 8 overhead press\n  2 x 8 pull-ups\n  2 x 50 m farmers carry @ 2 x 24 kg\nCool-down: mobility",
+              "rpe": 6,
+              "stations": [
+                "farmers_carry"
+              ],
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2027-01-14",
+          "dayOfWeek": "Thursday",
+          "workouts": [
+            {
+              "id": "w9-thu-run",
+              "sport": "run",
+              "type": "endurance",
+              "name": "Easy Run + Strides",
+              "description": "Aerobic volume at conversational effort. If you cannot talk in full sentences, slow down.",
+              "durationMinutes": 45,
+              "humanReadable": "Warm-up: walk into a slow jog\nMain (35 min): continuous run @ 5:50-6:05/km, Zone 2, then 6 x 20 s relaxed strides with 60 s walk\nCool-down: walk + calf stretch",
+              "distanceMeters": 7500,
+              "primaryZone": "Zone 2",
+              "rpe": 4,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2027-01-15",
+          "dayOfWeek": "Friday",
+          "workouts": [
+            {
+              "id": "w9-fri-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Rest or 20 min mobility.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2027-01-16",
+          "dayOfWeek": "Saturday",
+          "workouts": [
+            {
+              "id": "w9-sat-hyrox",
+              "sport": "hyrox",
+              "type": "simulation",
+              "name": "Half Simulation: Stations 5-8",
+              "description": "The back half is where races are decided. Practise the wall-ball set plan on empty legs.",
+              "durationMinutes": 75,
+              "humanReadable": "Warm-up: easy jog, mobility, 1 min row, 10 wall balls\nMain (50 min): Continuous, race effort, jog the transitions\n  1 km @ 5:15 + 1000 m row @ 2:15/500m\n  1 km @ 5:15 + 200 m farmers carry @ 2 x 24 kg\n  1 km @ 5:20 + 100 m sandbag lunges @ 20 kg\n  1 km @ 5:15 + 100 wall balls @ 6 kg as 25-20-20-15-10-10\nCool-down: walk + stretch, write down splits",
+              "distanceMeters": 6000,
+              "primaryZone": "Zone 3-4",
+              "rpe": 8,
+              "stations": [
+                "row",
+                "farmers_carry",
+                "sandbag_lunges",
+                "wall_balls"
+              ],
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2027-01-17",
+          "dayOfWeek": "Sunday",
+          "workouts": [
+            {
+              "id": "w9-sun-run",
+              "sport": "run",
+              "type": "long",
+              "name": "Long Run",
+              "description": "Durability for 8 km of racing plus stations. Keep it easy; the distance is the stimulus.",
+              "durationMinutes": 83,
+              "humanReadable": "Main (83 min): 14 km @ 5:50-6:05/km, Zone 2. Sip water; take a gel after 60 min",
+              "distanceMeters": 14000,
+              "primaryZone": "Zone 2",
+              "rpe": 4,
+              "completed": false
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "totalHours": 5.1,
+        "bySport": {
+          "run": {
+            "sessions": 3,
+            "hours": 3.1,
+            "km": 31
+          },
+          "strength": {
+            "sessions": 1,
+            "hours": 0.8
+          },
+          "hyrox": {
+            "sessions": 1,
+            "hours": 1.3,
+            "km": 6
+          }
+        }
+      }
+    },
+    {
+      "weekNumber": 10,
+      "startDate": "2027-01-18",
+      "endDate": "2027-01-24",
+      "phase": "Specific",
+      "focus": "Full simulation: rehearse everything",
+      "targetHours": 4.9,
+      "isRecoveryWeek": false,
+      "days": [
+        {
+          "date": "2027-01-18",
+          "dayOfWeek": "Monday",
+          "workouts": [
+            {
+              "id": "w10-mon-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Full recovery. Walk, stretch, sleep.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2027-01-19",
+          "dayOfWeek": "Tuesday",
+          "workouts": [
+            {
+              "id": "w10-tue-run",
+              "sport": "run",
+              "type": "intervals",
+              "name": "8 x 1 km Race Pace",
+              "description": "Eight kilometers at race pace: the running half of your race.",
+              "durationMinutes": 67,
+              "humanReadable": "Warm-up: easy jog, mobility, 2 pick-ups\nMain (49 min): 8 x 1 km @ 5:15/km with 60 s walk-jog\nCool-down: easy jog + stretch",
+              "distanceMeters": 11500,
+              "primaryZone": "Zone 3",
+              "rpe": 7,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2027-01-20",
+          "dayOfWeek": "Wednesday",
+          "workouts": [
+            {
+              "id": "w10-wed-strength",
+              "sport": "strength",
+              "type": "max_strength",
+              "name": "Strength Maintenance",
+              "description": "Keep strength without soreness. Move fast, stop well short of failure.",
+              "durationMinutes": 40,
+              "humanReadable": "Warm-up: easy erg, mobility, ramp sets\nMain (26 min): 2 x 6 back squat @ RPE 6\n  2 x 6 trap-bar deadlift @ RPE 6\n  2 x 8 overhead press\n  2 x 8 pull-ups\n  2 x 50 m farmers carry @ 2 x 24 kg\nCool-down: mobility",
+              "rpe": 6,
+              "stations": [
+                "farmers_carry"
+              ],
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2027-01-21",
+          "dayOfWeek": "Thursday",
+          "workouts": [
+            {
+              "id": "w10-thu-run",
+              "sport": "run",
+              "type": "endurance",
+              "name": "Easy Run",
+              "description": "Aerobic volume at conversational effort. If you cannot talk in full sentences, slow down.",
+              "durationMinutes": 35,
+              "humanReadable": "Warm-up: walk into a slow jog\nMain (25 min): continuous run @ 5:50-6:05/km, Zone 2\nCool-down: walk + calf stretch",
+              "distanceMeters": 6000,
+              "primaryZone": "Zone 2",
+              "rpe": 4,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2027-01-22",
+          "dayOfWeek": "Friday",
+          "workouts": [
+            {
+              "id": "w10-fri-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Rest or 20 min mobility.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2027-01-23",
+          "dayOfWeek": "Saturday",
+          "workouts": [
+            {
+              "id": "w10-sat-hyrox",
+              "sport": "hyrox",
+              "type": "simulation",
+              "name": "Full Race Simulation",
+              "description": "Dress rehearsal at 90-95% effort: race shoes, race breakfast, race fueling, race pacing. The splits become your race plan.",
+              "durationMinutes": 110,
+              "humanReadable": "Warm-up: race-day warm-up exactly as planned\nMain (87 min): All 8 x (1 km run + station) at Open Men weights, target ~1:27\n  Runs @ 5:15-5:25/km, first run 5:25\n  SkiErg 1000 m | Sled push 50 m @ 152 kg | Sled pull 50 m @ 103 kg | 80 m burpee broad jumps\n  Row 1000 m | Farmers carry 200 m @ 2 x 24 kg | Lunges 100 m @ 20 kg | 100 wall balls @ 6 kg\n  Gel after the row\nCool-down: walk, eat within 30 min",
+              "distanceMeters": 8700,
+              "primaryZone": "Zone 4",
+              "rpe": 9,
+              "stations": [
+                "skierg",
+                "sled_push",
+                "sled_pull",
+                "burpee_broad_jump",
+                "row",
+                "farmers_carry",
+                "sandbag_lunges",
+                "wall_balls"
+              ],
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2027-01-24",
+          "dayOfWeek": "Sunday",
+          "workouts": [
+            {
+              "id": "w10-sun-bike",
+              "sport": "bike",
+              "type": "recovery",
+              "name": "Recovery Spin",
+              "description": "Flush the legs after the simulation without any impact.",
+              "durationMinutes": 40,
+              "humanReadable": "Main (40 min): easy spin or walk, Zone 1, then 10 min mobility included",
+              "primaryZone": "Zone 1",
+              "rpe": 2,
+              "completed": false
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "totalHours": 4.9,
+        "bySport": {
+          "run": {
+            "sessions": 2,
+            "hours": 1.7,
+            "km": 17.5
+          },
+          "strength": {
+            "sessions": 1,
+            "hours": 0.7
+          },
+          "hyrox": {
+            "sessions": 1,
+            "hours": 1.8,
+            "km": 8.7
+          },
+          "bike": {
+            "sessions": 1,
+            "hours": 0.7
+          }
+        }
+      }
+    },
+    {
+      "weekNumber": 11,
+      "startDate": "2027-01-25",
+      "endDate": "2027-01-31",
+      "phase": "Specific",
+      "focus": "Sharpen: transitions and pace",
+      "targetHours": 4.5,
+      "isRecoveryWeek": false,
+      "days": [
+        {
+          "date": "2027-01-25",
+          "dayOfWeek": "Monday",
+          "workouts": [
+            {
+              "id": "w11-mon-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Full recovery. Walk, stretch, sleep.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2027-01-26",
+          "dayOfWeek": "Tuesday",
+          "workouts": [
+            {
+              "id": "w11-tue-run",
+              "sport": "run",
+              "type": "threshold",
+              "name": "3 x 2 km",
+              "description": "Longer reps slightly faster than race pace to make race pace feel comfortable.",
+              "durationMinutes": 57,
+              "humanReadable": "Warm-up: 8 min easy jog, leg swings, lunges, 3 x 20 s pick-ups\nMain (35 min): 3 x 2 km @ 5:05/km with 2 min easy jog\nCool-down: 5 min easy jog, 5 min calves, hips, lats",
+              "distanceMeters": 10000,
+              "primaryZone": "Zone 4",
+              "rpe": 7,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2027-01-27",
+          "dayOfWeek": "Wednesday",
+          "workouts": [
+            {
+              "id": "w11-wed-strength",
+              "sport": "strength",
+              "type": "max_strength",
+              "name": "Strength Maintenance",
+              "description": "Keep strength without soreness. Move fast, stop well short of failure.",
+              "durationMinutes": 40,
+              "humanReadable": "Warm-up: easy erg, mobility, ramp sets\nMain (26 min): 2 x 6 back squat @ RPE 6\n  2 x 6 trap-bar deadlift @ RPE 6\n  2 x 8 overhead press\n  2 x 8 pull-ups\n  2 x 50 m farmers carry @ 2 x 24 kg\nCool-down: mobility",
+              "rpe": 6,
+              "stations": [
+                "farmers_carry"
+              ],
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2027-01-28",
+          "dayOfWeek": "Thursday",
+          "workouts": [
+            {
+              "id": "w11-thu-run",
+              "sport": "run",
+              "type": "endurance",
+              "name": "Easy Run + Strides",
+              "description": "Aerobic volume at conversational effort. If you cannot talk in full sentences, slow down.",
+              "durationMinutes": 40,
+              "humanReadable": "Warm-up: walk into a slow jog\nMain (30 min): continuous run @ 5:50-6:05/km, Zone 2, then 6 x 20 s relaxed strides with 60 s walk\nCool-down: walk + calf stretch",
+              "distanceMeters": 7000,
+              "primaryZone": "Zone 2",
+              "rpe": 4,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2027-01-29",
+          "dayOfWeek": "Friday",
+          "workouts": [
+            {
+              "id": "w11-fri-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Rest or 20 min mobility.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2027-01-30",
+          "dayOfWeek": "Saturday",
+          "workouts": [
+            {
+              "id": "w11-sat-hyrox",
+              "sport": "hyrox",
+              "type": "compromised",
+              "name": "Roxzone Repeats",
+              "description": "Fast, clean transitions. No standing at the station entrance.",
+              "durationMinutes": 60,
+              "humanReadable": "Warm-up: easy jog, mobility, 3 x 20 s pick-ups\nMain (38 min): 8 x (400 m run @ 5:10/km + ~75 s station at race pace), jog straight between, no rest\n  250 m SkiErg | 12.5 m sled push | 12.5 m sled pull | 15 m burpee broad jumps\n  250 m row | 50 m farmers carry | 20 m lunges | 20 wall balls\nCool-down: walk + stretch",
+              "distanceMeters": 4500,
+              "primaryZone": "Zone 3-4",
+              "rpe": 7,
+              "stations": [
+                "skierg",
+                "sled_push",
+                "sled_pull",
+                "burpee_broad_jump",
+                "row",
+                "farmers_carry",
+                "sandbag_lunges",
+                "wall_balls"
+              ],
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2027-01-31",
+          "dayOfWeek": "Sunday",
+          "workouts": [
+            {
+              "id": "w11-sun-run",
+              "sport": "run",
+              "type": "long",
+              "name": "Long Run",
+              "description": "Durability for 8 km of racing plus stations. Keep it easy; the distance is the stimulus.",
+              "durationMinutes": 71,
+              "humanReadable": "Main (71 min): 12 km @ 5:50-6:05/km, Zone 2. Sip water; take a gel after 60 min",
+              "distanceMeters": 12000,
+              "primaryZone": "Zone 2",
+              "rpe": 4,
+              "completed": false
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "totalHours": 4.5,
+        "bySport": {
+          "run": {
+            "sessions": 3,
+            "hours": 2.8,
+            "km": 29
+          },
+          "strength": {
+            "sessions": 1,
+            "hours": 0.7
+          },
+          "hyrox": {
+            "sessions": 1,
+            "hours": 1,
+            "km": 4.5
+          }
+        }
+      }
+    },
+    {
+      "weekNumber": 12,
+      "startDate": "2027-02-01",
+      "endDate": "2027-02-07",
+      "phase": "Taper",
+      "focus": "Race week: fresh legs, sharp mind",
+      "targetHours": 3.3,
+      "isRecoveryWeek": false,
+      "days": [
+        {
+          "date": "2027-02-01",
+          "dayOfWeek": "Monday",
+          "workouts": [
+            {
+              "id": "w12-mon-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Sleep, hydrate, re-read the movement standards.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2027-02-02",
+          "dayOfWeek": "Tuesday",
+          "workouts": [
+            {
+              "id": "w12-tue-run",
+              "sport": "run",
+              "type": "intervals",
+              "name": "Race-Pace Openers",
+              "description": "Remind the legs of race pace with lots of recovery.",
+              "durationMinutes": 45,
+              "humanReadable": "Warm-up: easy jog + mobility\nMain (27 min): 4 x 1 km @ 5:15/km with 2 min walk-jog\nCool-down: easy jog + stretch",
+              "distanceMeters": 6500,
+              "primaryZone": "Zone 3",
+              "rpe": 6,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2027-02-03",
+          "dayOfWeek": "Wednesday",
+          "workouts": [
+            {
+              "id": "w12-wed-strength",
+              "sport": "strength",
+              "type": "max_strength",
+              "name": "Activation Lift",
+              "description": "Wake up the muscles, no fatigue.",
+              "durationMinutes": 30,
+              "humanReadable": "Warm-up: easy erg + mobility\nMain (16 min): 2 x 5 squat @ RPE 5, 2 x 5 deadlift @ RPE 5, 2 x 10 light wall balls\nCool-down: mobility",
+              "rpe": 4,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2027-02-04",
+          "dayOfWeek": "Thursday",
+          "workouts": [
+            {
+              "id": "w12-thu-hyrox",
+              "sport": "hyrox",
+              "type": "technique",
+              "name": "Race Opener",
+              "description": "Short touches of three stations at race pace. Finish feeling you could do it all again.",
+              "durationMinutes": 35,
+              "humanReadable": "Warm-up: easy jog + mobility\nMain (17 min): 2 rounds, 2 min rest: 500 m run @ 5:15/km, 250 m SkiErg, 12.5 m sled push @ 152 kg, 15 wall balls @ 6 kg\nCool-down: walk + stretch",
+              "distanceMeters": 2500,
+              "primaryZone": "Zone 3",
+              "rpe": 5,
+              "stations": [
+                "skierg",
+                "sled_push",
+                "wall_balls"
+              ],
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2027-02-05",
+          "dayOfWeek": "Friday",
+          "workouts": [
+            {
+              "id": "w12-fri-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Travel, check-in, carbohydrate-rich meals, 15 min walk. Lay out your kit.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2027-02-06",
+          "dayOfWeek": "Saturday",
+          "workouts": [
+            {
+              "id": "w12-sat-race",
+              "sport": "race",
+              "type": "race",
+              "name": "HYROX Hamburg",
+              "description": "Race day. First run is free: bank patience, not time. The race starts at the row.",
+              "durationMinutes": 85,
+              "distanceMeters": 8000,
+              "primaryZone": "Zone 4",
+              "rpe": 9,
+              "stations": [
+                "skierg",
+                "sled_push",
+                "sled_pull",
+                "burpee_broad_jump",
+                "row",
+                "farmers_carry",
+                "sandbag_lunges",
+                "wall_balls"
+              ],
+              "humanReadable": "Target 1:25:00\nRuns @ 5:10-5:20/km (run 1 @ 5:25)\nSkiErg 4:20 | Sled push 3:00 | Sled pull 4:45 | Burpee broad jumps 5:15\nRow 4:30 | Farmers carry 2:05 | Lunges 4:45 | Wall balls 6:15\nRoxzone 6:00 total",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2027-02-07",
+          "dayOfWeek": "Sunday",
+          "workouts": [
+            {
+              "id": "w12-sun-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Walk, eat, celebrate. Write down what you would change.",
+              "completed": false
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "totalHours": 3.3,
+        "bySport": {
+          "run": {
+            "sessions": 1,
+            "hours": 0.8,
+            "km": 6.5
+          },
+          "strength": {
+            "sessions": 1,
+            "hours": 0.5
+          },
+          "hyrox": {
+            "sessions": 1,
+            "hours": 0.6,
+            "km": 2.5
+          },
+          "race": {
+            "sessions": 1,
+            "hours": 1.4,
+            "km": 8
+          }
+        }
+      }
+    }
+  ],
+  "raceStrategy": {
+    "event": {
+      "name": "HYROX Hamburg",
+      "date": "2027-02-06",
+      "division": "open_men",
+      "goalTime": "1:25:00"
+    },
+    "pacing": {
+      "run": {
+        "targetPace": "5:10-5:20/km",
+        "targetHR": "160-172",
+        "notes": "Run 1 at 5:25. Expect heavy legs for 300 m after sleds and lunges. Push from run 7."
+      },
+      "roxzone": {
+        "targetTime": "6:00",
+        "notes": "Jog every transition; know each station entrance beforehand"
+      },
+      "stations": [
+        {
+          "station": "skierg",
+          "order": 1,
+          "load": "1000 m",
+          "targetTime": "4:20",
+          "strategy": "2:10/500m even, long strokes, breathe"
+        },
+        {
+          "station": "sled_push",
+          "order": 2,
+          "load": "152 kg x 50 m",
+          "targetTime": "3:00",
+          "strategy": "12.5 m continuous, 10 s breath at each line"
+        },
+        {
+          "station": "sled_pull",
+          "order": 3,
+          "load": "103 kg x 50 m",
+          "targetTime": "4:45",
+          "strategy": "Sit back, long pulls, walk it back when arms fade"
+        },
+        {
+          "station": "burpee_broad_jump",
+          "order": 4,
+          "load": "80 m",
+          "targetTime": "5:15",
+          "strategy": "Step down, step up, steady rhythm"
+        },
+        {
+          "station": "row",
+          "order": 5,
+          "load": "1000 m",
+          "targetTime": "4:30",
+          "strategy": "2:15/500m at 26 spm; bring HR down"
+        },
+        {
+          "station": "farmers_carry",
+          "order": 6,
+          "load": "2 x 24 kg x 200 m",
+          "targetTime": "2:05",
+          "strategy": "Unbroken, fast walk"
+        },
+        {
+          "station": "sandbag_lunges",
+          "order": 7,
+          "load": "20 kg x 100 m",
+          "targetTime": "4:45",
+          "strategy": "Never stop; one step per second"
+        },
+        {
+          "station": "wall_balls",
+          "order": 8,
+          "load": "100 reps @ 6 kg",
+          "targetTime": "6:15",
+          "strategy": "25-20-20-15-10-10 with 6 s rests"
+        }
+      ]
+    },
+    "nutrition": {
+      "preRace": "3 h before: oats, banana, honey. 45 min before: one gel and 400 ml electrolytes",
+      "during": "Water at the Roxzone tables; one gel after the row",
+      "notes": "Rehearsed in the week 10 simulation. Nothing new on race day."
+    },
+    "taper": {
+      "startDate": "2027-01-28",
+      "volumeReduction": 50,
+      "notes": "Volume halves, race-pace touches stay. No heavy lunges or wall balls to failure inside 5 days."
+    },
+    "raceDay": {
+      "wakeUpTime": "4 h before wave start",
+      "preRaceMeal": "Oats with banana and honey, coffee",
+      "warmUp": "10 min jog, mobility, 2 min SkiErg, 10 wall balls, 3 x 20 s at race pace; done 10 min before the start",
+      "mentalCues": [
+        "First run is free",
+        "One line, one set, one breath",
+        "Heavy legs last 300 meters",
+        "The race starts at the row"
+      ]
+    }
+  }
+}
